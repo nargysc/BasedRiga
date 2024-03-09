@@ -59,4 +59,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.sliderTitle {
+    position: absolute;
+    top: 0;
+font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  color: white;
 }
