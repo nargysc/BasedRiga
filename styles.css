@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -44,4 +46,17 @@ nav {
     margin-right: 40px;
     font-weight: 340;
     cursor: pointer;
+}
+
+.slider {
+}
+.sliderWrapper {
+    display: flex;
+    width: 500vw;
+}
+.sliderItem {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
