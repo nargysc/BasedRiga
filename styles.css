@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: rgb(28, 24, 24);
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px 50px;
 }
@@ -22,7 +22,7 @@ nav {
 .search {
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(39, 39, 39);
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -32,4 +32,16 @@ nav {
 }
 .searchInput::placeholder {
     color: lightgray;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItem {
+    margin-right: 40px;
+    font-weight: 340;
+    cursor: pointer;
 }
