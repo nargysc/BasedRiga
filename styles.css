@@ -48,7 +48,20 @@ nav {
     cursor: pointer;
 }
 
+.sliderBg {
+     width: 750px;
+     height: 750px;
+     border-radius: 50%;
+     position: absolute;
+     background-color: #FF4438 ;
+}
 .slider {
+    background-image: url('/files/bg.jpeg');
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+
+
+
+
 }
 .sliderWrapper {
     display: flex;
@@ -64,7 +77,72 @@ nav {
 .sliderTitle {
     position: absolute;
     top: 0;
-font-family: "DM Serif Display", serif;
+   font-family: "DM Serif Display", serif;
   font-weight: 400;
+  font-size: 2em;
+  color: rgb(246, 246, 209);
+  text-align: center;
+  z-index: 1;
+}
+
+.subTitle {
+  font-weight: 500;
+  position: absolute;
+  top: 10%;
+  left:20%;
+  z-index: 1;
+}
+
+.sliderImg {
+    z-index: 1;
+}
+.orderButton {
+  font-weight: 900;
+  font-size: 3em;
+  border: 1px solid;
+  position: absolute;
+  top: 50%;
   color: white;
+  right:20%;
+  border: none;
+  z-index: 1;
+  background-color: navy;
+  cursor: pointer;
+}
+
+.orderButton:hover {
+    color: white;
+    background-color: #FF4438;
+}
+
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: #FF4438;
+}
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: navy;
+}
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: #FF4438;
+}
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: navy;
+}
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: #FF4438;
+}
+
+.sliderItem:nth-child(1) .subTitle{
+    color: #FF4438
+}
+.sliderItem:nth-child(2) .subTitle{
+    color: navy;
+}
+.sliderItem:nth-child(3) .subTitle{
+   color: #FF4438;
+}
+.sliderItem:nth-child(4) .subTitle{
+    color: navy;
+}
+.sliderItem:nth-child(5) .subTitle{
+    color: #FF4438;
 }
