@@ -57,15 +57,13 @@ nav {
 }
 .slider {
     background-image: url('/files/bg.jpeg');
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-
-
-
-
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    overflow: hidden;
 }
 .sliderWrapper {
     display: flex;
     width: 500vw;
+    transition: all 1.5s ease-in-out;
 }
 .sliderItem {
     width: 100vw;
