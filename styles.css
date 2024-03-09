@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin:0;
+}
+
+nav {
+    background-color: rgb(28, 24, 24);
+    color: black;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 35%;
+}
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.searchInput {
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder {
+    color: lightgray;
+}
