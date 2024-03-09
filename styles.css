@@ -144,3 +144,31 @@ nav {
 .sliderItem:nth-child(5) .subTitle{
     color: #FF4438;
 }
+
+
+/* Features */
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.feature {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+}
+
+.featureImg {
+    width: 240px;
+    height: 240px;
+}
+
+.featureTitle {
+    font-size: 20px;
+    font-family: "DM Serif Display", serif;
+    margin: 20px;
+}
