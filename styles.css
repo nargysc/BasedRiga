@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -214,8 +216,8 @@ nav {
 
 .size {
     padding: 5px 20px;
-    border: 1px solid #FF4438;
-    background-color: #FF4438;
+    border: none;
+    background-color: #000000;
     margin-right: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -242,5 +244,5 @@ nav {
 
 .productButton:hover {
     color:white;
-    background-color: #FF4438;
+    background-color: #000000;
 }

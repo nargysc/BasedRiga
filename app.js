@@ -42,9 +42,9 @@ const products = [
             img:"./files/clothing.jpg",
         },
         {
-            code:"black",
+            code:"beige",
             img:"./files/clothing2.jpg",
-            
+
         }
     ]
 },
@@ -79,5 +79,16 @@ currentProductImg.src = choosenProduct.colors[0].img;
 currentProductColors.forEach((color, index) => {
   color.addEventListener("click", () => {
     currentProductImg.src = choosenProduct.colors[index].img;
+  });
+});
+
+currentProductSizes.forEach((size, index) => {
+  size.addEventListener("click", () => {
+    currentProductSizes.forEach((size) => {
+      size.style.backgroundColor = "white";
+      size.style.color = "black";
+    });
+    size.style.backgroundColor = "black";
+    size.style.color = "white";
   });
 });
