@@ -122,37 +122,20 @@ nav {
     background-color: #FF4438;
 }
 
-.sliderItem:nth-child(1) .sliderBg{
+.sliderItem:nth-child(odd) .sliderBg{
     background-color: #FF4438;
 }
-.sliderItem:nth-child(2) .sliderBg{
+.sliderItem:nth-child(even) .sliderBg{
     background-color: navy;
-}
-.sliderItem:nth-child(3) .sliderBg{
-    background-color: #FF4438;
-}
-.sliderItem:nth-child(4) .sliderBg{
-    background-color: navy;
-}
-.sliderItem:nth-child(5) .sliderBg{
-    background-color: #FF4438;
+
 }
 
-.sliderItem:nth-child(1) .subTitle{
+.sliderItem:nth-child(odd) .subTitle{
     color: #FF4438
 }
-.sliderItem:nth-child(2) .subTitle{
+.sliderItem:nth-child(even) .subTitle{
     color: navy;
-}
-.sliderItem:nth-child(3) .subTitle{
-   color: #FF4438;
-}
-.sliderItem:nth-child(4) .subTitle{
-    color: navy;
-}
-.sliderItem:nth-child(5) .subTitle{
-    color: #FF4438;
-}
+
 
 
 /* Features */
